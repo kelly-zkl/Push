@@ -1,0 +1,71 @@
+.app-man{
+	width:100%;
+	.main-content{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.mrg-top-30{
+		margin-top: 30px;
+	}
+	.add-appdiv{
+		clear: both;
+		border: 1px solid rgb(204,204,204);
+		border-radius: 5px;
+		padding: 30px 30px;
+		margin-bottom: 30px;
+		.f-left{
+			float: left;
+			h3{
+				margin:0;
+				padding-top: 5px;
+				color: #666;
+			}
+		}
+		.ap-bottom{
+			border-bottom: 1px solid rgb(204,204,204);
+			margin-bottom: 22px;
+		}
+		.form-add{
+			margin-left: 100px;
+			width: 600px;
+			.avatar-uploader{
+				width:60px;
+				height: 60px;
+				border: 1px dashed #d9d9d9;
+			    border-radius: 6px;
+			    cursor: pointer;
+			    position: relative;
+			    overflow: hidden;
+			    text-align: center;
+			    line-height: 60px;
+			    color:#666;
+			    display: inline-block;
+			    vertical-align: top;
+			    margin-right: 10px;
+			}
+			.avatar-uploader:hover {
+			    border-color: #6cc;
+			 }
+			.avatar {
+			    width: 60px;
+			    height: 60px;
+			    display: block;
+			  }
+		}
+	}
+
+	.text-right{
+		text-align: right;
+		margin-bottom: 30px;
+	}
+}
+.app-man .add-appdiv:first-child,.app-man .add-appdiv:last-child{
+	padding-bottom: 8px;
+}
+.border-r-5{
+	border-radius: 5px;
+}
+.update-app{
+	float:right;
+	margin-bottom: 10px;
+}

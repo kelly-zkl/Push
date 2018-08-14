@@ -1,0 +1,123 @@
+
+.login-container {
+  /*box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);*/
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin: 180px auto;
+  width: 350px;
+  padding: 35px 35px 15px 35px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 25px #cac6c6;
+  padding-bottom: 50px;
+  .title {
+    margin: 0 auto 40px auto;
+    text-align: center;
+    color: #66CCCC;
+    font-size: 22px;
+    .logo {
+      font-size: 0;
+      background: url('../assets/images/logo.png');
+      background-size: 100% 100%;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+  .password {
+    margin: 0 0 35px 0;
+    .forget-pwd {
+      float: right;
+      text-decoration: inherit;
+      color: rgb(31, 58, 61);
+      font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+    }
+    .forget-pwd:hover {
+      color: #6cc;
+    }
+  }
+  .reg-user {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    text-decoration: inherit;
+    color: #6cc;
+  }
+  .login-box {
+    border-radius: 5px;
+    border: 1px solid rgb(191, 215, 217);
+    margin-bottom: 20px;
+  }
+}
+
+.register {
+  margin: 100px auto;
+  .title {
+    margin-bottom: 10px;
+  }
+  .res-tabs {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    .el-icon-information {
+      color: #F7BA2A;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    .nav {
+      padding: 0;
+      margin: 0;
+      margin-top: 10px;
+      border-radius: 25px;
+      border: 1px solid #ddd;
+      height: 35px;
+      line-height: 35px;
+      margin-bottom: 20px;
+      li {
+        list-style: none;
+        float: left;
+        width: 50%;
+        text-align: center;
+        cursor: pointer;
+      }
+      li:first-child {
+        border-radius: 20px 0 0 20px;
+      }
+      li:last-child {
+        border-radius: 0 20px 20px 0;
+      }
+      .actived {
+        background: #6cc;
+        color: #fff;
+      }
+    }
+    .el-form-item {
+      margin-bottom: 18px;
+    }
+  }
+}
+
+.fpp-form {
+  .title {
+    margin-bottom: 20px;
+  }
+  .fpp-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .el-alert--success {
+    background-color: #6cc;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    .el-alert__title {
+      font-size: 20px;
+    }
+  }
+}
+  
